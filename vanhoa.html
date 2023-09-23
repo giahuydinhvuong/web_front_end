@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Website Thuê gia sư</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/template.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="test.css">
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+	<script type="text/javascript" src="js/template.js"></script>
+</head>
+<body>
+	<section class="avenue-messenger" id="avenue-messenger">
+		<div class="menu">
+			<div class="items">
+				<span>
+					<a href="#" title="Minimize">&mdash;</a><br>
+					<a href="" title="End Chat">&#10005;</a>
+				</span>
+			</div>
+			<div class="button">...</div>
+		</div>
+		
+		<div class="agent-face">
+			<div class="half">
+				<img class="agent circle" src="images/admin1.jpg" alt="Jesse Tino">
+			</div>
+		</div>
+
+		<div class="chat">
+			<div class="chat-title">
+				<h1>Admin</h1>
+				<h2>Quản lý website</h2>
+			</div>
+			<div class="messages">
+				<div class="messages-content"></div>
+			</div>
+			<div class="message-box">
+				<textarea type="text" class="message-input" placeholder="Nhập tin nhắn..."></textarea>
+				<button type="submit" class="message-submit">Gửi</button>
+			</div>
+		</div>
+	</section>
+	<div id="chatmessage" onclick="myFunction1()"><img src="images/chat.png"></div>
+	<script>
+		function myFunction1() {
+			document.getElementById("avenue-messenger").style.display = 'block';
+		}
+	</script>
+	<script src="js/chat.js">
+		
+	</script>
+	
+	<div class="mainmenu">
+		<header>
+        <div class="container2">
+          <nav id="navigation">
+            <a href="index.html" id="logo"><img src="images/logo1.png"></a>
+            <a aria-label="mobile menu" class="nav-toggle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+              <ul class="menu-left">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="course.html">Các khóa học</a></li>
+                <li><a href="aboutus.html">Về chúng tôi</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+                <li><a href="loginregister.html">Đăng nhập</a></li>
+              </ul>
+          </nav>
+        </div>
+      </header>
+  </div>
+  <script src="jquery.js"></script>
+
+	<div class="coursedk">
+		<div class="coursedk1">
+			<a href=""><strong>Đăng ký khóa học &#187;</strong></a><span> Xác nhận & thanh toán</span>
+			<div>
+				<h1>Đăng ký khóa học</h1>
+				<form action="#">
+					<div>
+						<label><strong>Họ và tên</strong></label>
+						<input type="text" class="form-control" name="" placeholder="Họ và tên" required>
+					</div>
+					<div>
+						<label><strong>Địa chỉ Email</strong></label>
+						<input type="email" class="form-control" placeholder="Email" required>
+					</div>
+					<div>
+						<label><strong>Số điện thoại</strong></label>
+						<input type="text" class="form-control" id="phone" placeholder="Số điện thoại" required>
+					</div>
+					<div>
+						<label><strong>Giới tính</strong></label>
+						<select class="form-control">
+							<option>Chọn giới tính</option>
+							<option>Nam</option>
+							<option>Nữ</option>
+						</select>
+					</div>
+					<div>
+						<label>Ngày sinh</label>
+						<input type="date" class="form-control" placeholder="Ngày sinh" required/>
+					</div>
+					<div>
+						<label><strong>Khóa học</strong></label>
+						<select class="form-control">
+							<option>---Chọn khóa học---</option>
+							<option>Môn Văn hóa</option>
+						</select>
+					</div>
+					<div>
+						<label><strong>Thời gian học</strong></label>
+						<select class="form-control">
+							<option>Thứ ba, Thứ năm, Thứ bảy - Từ 7h30 đến 10h30</option>
+							<option>Thứ ba, Thứ năm, Thứ bảy - Từ 7h30 đến 10h30</option>
+						</select>
+					</div>
+					<div>
+						<label><strong>Lời nhắn</strong></label>
+						<textarea class="form-control" placeholder="Lời nhắn"></textarea>
+					</div>
+					<div>
+						<input type="submit" class="form-control" value="Đăng ký">
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="coursedk2" style="display: flex; flex-flow: column;">
+			<div>
+				<h3>Phương thức thanh toán</h3>
+			</div>
+			<div>
+				<input type="radio" name="thanhtoan">
+				<strong>Chuyển khoản ngân hành (Không mất phí thanh toán) - Thông tin người nhận</strong>
+			</div>
+			<div>
+				<input type="radio" name="thanhtoan">
+				<strong>Thanh toán Onecom: Thanh toán bằng thẻ Visa hoặc Master Card (Có tính phí)</strong>
+			</div>
+			<div>
+				<input type="radio" name="thanhtoan">
+				<strong>Thanh toán bằng Paypal (Phí thanh toán là 500đ)</strong>
+			</div>
+			<div>
+				<input type="radio" name="thanhtoan">
+				<strong>Đổi thẻ</strong>
+			</div>
+			<div>
+				<img src="images/tt1.png" id="imgtt1">
+				<img src="images/tt4.png" id="imgtt1">
+			</div>
+			<div>
+				<img src="images/tt5.jpg" id="imgtt1" style="border-radius: 15px;">
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div id="footer2">
+			<div>
+				<p><strong>GS Gia sư</strong></p>
+				<p>- Website giáo dục nền tảng công nghệ 4.0</p>
+				<p>- Mang tới sự trải nghiệm, giúp việc học trở nên dễ dàng hơn.</p>
+				<p>- Nâng cao tri thức.</p>
+				<p><img src="images/logo1.png" id="logofooter"></p>
+			</div>
+			<div id="lienhe">
+				<p><strong>Liên hệ</strong></p>
+				<p>Email: hiepsock1@gmail.com</p>
+				<p>Hotline: 0942 054 148</p>
+			</div>	
+			<div>
+				<p><strong>Ứng dụng</strong></p>
+				<p><a href="#">Tìm kiếm gia sư</a></p>
+				<p><a href="#">Tìm kiếm lớp học</a></p>
+				<p><a href="#">Trỏ thành gia sư</a></p>
+				<p><a href="#">Đăng lớp học</a></p>
+				<p><a href="#">Ứng tuyển</a></p>
+			</div>
+			<div>
+				<p><strong>Hỗ trợ</strong></p>
+				<p>Hỗ trợ khách hàng mọi lúc mọi nơi</p>
+			</div>
+		</div>
+		<small>&copy; Bản quyền NVH</small>
+	</div>
+</body>
+</html>
